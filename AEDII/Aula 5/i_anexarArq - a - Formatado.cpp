@@ -6,7 +6,7 @@ int main(void)
 	int numero;
 	FILE *arq;//arquivo do tipo FILE
 	
-	arq = fopen("ArqFormatado.txt", "a");//abre o arquivo para gravaÁ„o. Se o arquivo n„o existir, ele ser· criado automaticamente
+	arq = fopen("ArqFormatado.txt", "a");//abre o arquivo para grava√ß√£o. Se o arquivo n√£o existir, ele ser√° criado automaticamente
 	if(arq == NULL)
 	{
 		printf("Erro, nao foi possivel abrir o arquivo\n");
@@ -19,7 +19,7 @@ int main(void)
 		fgets(palavra,19,stdin);//leitura de string
 		printf("Numero: ");
 		scanf("%d", &numero);
-		fprintf(arq, "%s%d", palavra, numero);//gravaÁ„o de dados;
+		fprintf(arq, "%s%d", palavra, numero);//grava√ß√£o de dados;
 		printf("\n Continuar (S/N)?");
 		fflush(stdin);
 		scanf("%c", &op);
