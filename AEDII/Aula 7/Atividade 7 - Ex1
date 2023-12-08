@@ -38,6 +38,10 @@ int main()
 	return 0;
 }
 
+\\ o asterisco (*) faz o compilador saiba que a função não vai guardar um valor 
+\\ mas sim um endereço para aquele tipo especificado.
+\\ Se estivesse usando uma função que apontaria para outro local de memória, então 
+\\ &variavel será necessária. Exemplo: scanf("%d",&x[i])
 void *inserir(int* x){
   ...
 		scanf("%d", &x[i]);
