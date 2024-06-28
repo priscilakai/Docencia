@@ -1,5 +1,5 @@
 # Descrição da P2 - Trabalho de Mineração de dados
-## Entrega: data limite até dia 03/06 
+## Entrega: data limite até dia 03/07
 
 Formato: disponibilização do colab criado (pode ser um arquivo pdf contendo todo o Colab)
 
